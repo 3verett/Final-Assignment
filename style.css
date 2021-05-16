@@ -1,0 +1,49 @@
+body {
+  background-image: url("images/background.png");
+}
+
+#output {
+  background-color: black;
+  color: white;
+  outline: none;
+  position: absolute;
+  top: 253px;
+  left: 415px;
+  bottom: 315px;
+  width: 1060px;
+  padding-left: 1em;
+  resize: none;
+  font-size: 175%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "ladyRadical2";
+  src: url(LadyRadical2.ttf);
+}
+
+button {
+  background-color: #cc0000;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: ladyRadical2;
+  font-size: 175%;
+  text-align: center;
+  vertical-align: middle;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#option-a {
+  font-weight: 400;
+  position: absolute;
+  left: 507px;
+  top: 700px;
+}
+
+#option-b {
+  position: absolute;
+  left: 1117px;
+  top: 700px;
+}
