@@ -1,5 +1,5 @@
 // The code works so that when a correct input is submitted it will add 1 to the currQ value and depending on the number that currQ is equal to it will output the corrisponding question.
-let inp = document.getElementById('output')
+const inp = document.getElementById('output')
 let currQ = 0
 // Made array for questions and their matching correct answers
 const questions = ['Click on the "Option A" button to start... if you dare.',
@@ -8,10 +8,10 @@ const questions = ['Click on the "Option A" button to start... if you dare.',
                  'Going down the stairs you enter a room full of bloody boxes. This must be a storage room you think. Smelling a horrible stench you decide to get out of this room ASAP, there is a door infront of you and a door to your right. Choose A to go forwards or choose B to go right.',
                  'Choosing to go forward you go through the door and see a black box on a pedistal. You take the box and find a bunch of garlic? You assume with the blood and spooky mansion you are dealing with vampires. Now covering yourself with garlic you think its time to go up that staircase. You head out the room and see two vampires they both turn to bats and fly away in a scurry. You head up the stairs and go up again. You see the two that just ran talking to a bigger vampire clearly telling them there is an intruder. Fearless you dash at them heading for what looks like the front door. Scared they fly away and let you pass right through the door. You head back for your car and leave. No more being curious you say to yourself. Congragulations you escaped! Click any button to restart.']
 const answers = ['a',
-               'b',
-               'a',
-               'a',
-               'a']
+                 'b',
+                 'a',
+                 'a',
+                 'a']
 
 // function to make a new line of text into the texarea box for the user to read and input their answer
 function printLine (txt) {
