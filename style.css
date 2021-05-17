@@ -27,7 +27,7 @@ button {
   background-color: #c00;
   border: 1px solid black;
   border-radius: 10px;
-  font-family: ladyRadical2;
+  font-family: ladyRadical2, 'Courier New', Courier, monospace;
   font-size: 175%;
   text-align: center;
   vertical-align: middle;
